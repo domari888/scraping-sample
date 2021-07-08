@@ -11,4 +11,4 @@ doc = Nokogiri::HTML.parse(html)
 
 # doc = Nokogiri::HTML(URI.open(url))  でも可能？
 
-puts doc
+pp doc

@@ -10,5 +10,5 @@ doc = Nokogiri::HTML.parse(html)
 
 # -- cssノードを取得 --
 doc.css('h2').each do |link|
-  puts link.content
+  puts link.content.strip
 end
